@@ -2,6 +2,7 @@ import {BrowserRouter ,Routes ,Route , Link} from 'react-router-dom';
 import './App.css';
 import IframeComponent from './Components/IframeComponent';
 import TopBar from './Components/TopBar';
+import App1 from './Components/App1';
 
 
 
@@ -14,7 +15,7 @@ function App() {
         <IframeComponent />
         <div>
         <TopBar/>
-       
+        <App1/>
         </div>
         {/* <BrowserRouter>
         </BrowserRouter> */}

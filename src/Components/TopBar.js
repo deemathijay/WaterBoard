@@ -1,3 +1,5 @@
+
+
 function TopBar(){
     return(
         <div className="top-bar">
@@ -23,3 +25,16 @@ function TopBar(){
 
 }
 export default TopBar;
+
+
+// const CustomList = ({ items }) => {
+//   return (
+//     <ul>
+//       {items.map((item, index) => (
+//         <li key={index}>{item}</li>
+//       ))}
+//     </ul>
+//   );
+// };
+
+// export default CustomList;
